@@ -35,8 +35,21 @@ public class Fulijava {
          }
         if(num==8)
         { 
-        	num1 num1=new num1();
-        	num2 num2=new num2();
+            System.out.print("请输入投资数量：\n");
+            int c=scanner.nextInt();	//c为投资数目
+            for(int a=1;a<=c;a++){
+             System.out.print("第"+a+"笔资金\n"); 
+             System.out.print("请选择投资类型：1为复利计算  | 2为单利计算\n");
+             int x=scanner.nextInt();		//x为投资类型
+             if(x==1)
+             {
+             	num1 num1=new num1();
+             }
+             if(x==2)
+             {
+             	num2 num2=new num2();
+             }
+            }
          }
     }
 
