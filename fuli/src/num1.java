@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class num1 {
-	{ 
+	{
 	double F;
     Scanner scanner=new Scanner(System.in);
     System.out.print("¸´Àû¼ÆËã\n"); 

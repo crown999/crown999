@@ -17,6 +17,6 @@ public class num2 {
         int n=scanner.nextInt();
         F=P*(1+i*n);
         System.out.print("------------------------------\n");  
-        System.out.print("通过单利存款，你所获得的金额为：\n"+F+"\n"); 
+        System.out.print("通过单利存款，你所获得的金额为：\n"+String.format("%.2f", F)+"\n"); 
 	}
 }
